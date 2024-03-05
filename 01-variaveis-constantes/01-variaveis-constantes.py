@@ -85,3 +85,12 @@ habilidades = tuple(habilidades)
 
 print(opcoes)
 print(habilidades)
+
+emprego: dict = {
+    "nome": "estagio",
+    "salario": 20_000.0,
+    "disponivel": True
+}
+
+print(emprego)
+print(emprego["disponivel"])
