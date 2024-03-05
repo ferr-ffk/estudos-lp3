@@ -70,3 +70,18 @@ conjunto = set(habilidades)
 print(habilidades)
 print(conjunto)
 
+# insere como ultima posição
+habilidades.insert(30, "c#")
+
+
+for indice, habilidade in enumerate(habilidades):
+    print(f'{indice}: {habilidade}')
+
+
+# Tuplas: listas de dois elementos não alteráveis (sem adição ou remoção)
+# Valores não únicos
+opcoes = ("sim", "não", "nunca veyr")
+habilidades = tuple(habilidades)
+
+print(opcoes)
+print(habilidades)
