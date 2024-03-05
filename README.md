@@ -8,3 +8,4 @@ Repositório dedicado à disciplina de LP3 em 2024
 ## Diretórios
 
 - **00-intro-git**: Aulas iniciais para estudo de controle de versão
+- **01-variaveis-constantes***: Aula inicial de conceitos básicos de python
