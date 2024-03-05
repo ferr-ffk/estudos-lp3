@@ -1,4 +1,4 @@
-# demo-git
+# estudos-lp3
 Repositório dedicado à disciplina de LP3 em 2024
 
 > Autor: Fernando Freitas de Lira 
