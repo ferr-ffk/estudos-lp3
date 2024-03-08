@@ -81,10 +81,10 @@ for indice, habilidade in enumerate(habilidades):
 # Tuplas: listas de dois elementos não alteráveis (sem adição ou remoção)
 # Valores não únicos
 opcoes = ("sim", "não", "nunca veyr")
-habilidades = tuple(habilidades)
+tupla = tuple(habilidades)
 
 print(opcoes)
-print(habilidades)
+print(tupla)
 
 emprego: dict = {
     "nome": "estagio",
