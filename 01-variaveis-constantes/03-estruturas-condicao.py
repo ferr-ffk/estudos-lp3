@@ -1,0 +1,52 @@
+# Estruturas de condicao
+
+idade = 17
+
+# if
+
+if idade >= 18:
+    print("É um adulto jaa ownt")
+
+# if/else
+
+if idade >= 18 <= 60:
+    print("já pode ser preso")
+else:
+    print("não pode ser preso")
+
+# if/elif/else
+
+if idade <= 12:
+    print("crianca")
+elif idade <= 17:
+    print("adolescente")
+else:
+    print("adulto ou idoso")
+
+
+if idade >= 18:
+    print("O usuário é maior de idade")
+
+for _ in range(0, 100):
+    print(f'{_}°')
+
+# Ternario
+
+email = "usuario@gmail.com"
+senha = "123456"
+
+def autenticarUsuario(email: str, senha: str) -> bool:
+    return email == "usuario@gmail.com" and senha == "123456"
+
+# match case (switch case)
+
+def numero_correspondente_dia(dia: int) -> str:
+    dias: dict[str] = {1: "domingo", 2: "segunda", 3: "terça", 4: "quarta", 5: "quinta", 6: "sexta", 7: "sabado"}
+
+    if dia in dias:
+        return dias[dia]
+    
+    return 0
+
+
+print(numero_correspondente_dia())
