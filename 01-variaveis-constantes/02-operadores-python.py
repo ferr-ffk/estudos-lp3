@@ -68,7 +68,7 @@ while True:
 
     break
     
-print("Continouu")
+print("Continuouu")
 
 
 
