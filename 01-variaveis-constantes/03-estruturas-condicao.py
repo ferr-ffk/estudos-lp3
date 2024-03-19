@@ -50,3 +50,38 @@ def numero_correspondente_dia(dia: int) -> str:
 
 
 print(numero_correspondente_dia())
+
+# Operador ternário
+
+idade = 20
+status = ''
+
+status = 'Maior' if idade >= 18 else 'Menor'
+
+# equivalente de
+
+if idade >= 18:
+    status = 'Maior'
+else:
+    status = 'Menor'
+
+# match (switch) case
+
+periodo = "dia"
+dia = 12
+
+match periodo:
+    case "dia":
+        print("Sim")
+    case "noite":
+        print("Nao")
+    case _:
+        print("invalidooo")
+
+match dia:
+    case 1 | 7:
+        print("fim de semana")
+    case 2 | 3 | 4 | 5 | 6:
+        print("semana")
+    case _:
+        print("boco")
