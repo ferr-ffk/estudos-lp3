@@ -1,4 +1,4 @@
-def aplicar_desconto(valor: float) -> float:
+def valor_com_desconto_aplicado(valor: float) -> float:
     desconto: float = 0
 
     if valor in range(10, 100):
@@ -15,7 +15,7 @@ def aplicar_desconto(valor: float) -> float:
 def main() -> None:
     valor = int(input())
 
-    print(f'Valor após a compra e o desconto: {aplicar_desconto(valor)}')
+    print(f'Valor após a compra e o desconto: {valor_com_desconto_aplicado(valor)}')
 
 if __name__ == "__main__":
     main()
