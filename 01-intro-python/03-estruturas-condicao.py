@@ -41,15 +41,15 @@ def autenticarUsuario(email: str, senha: str) -> bool:
 # match case (switch case)
 
 def numero_correspondente_dia(dia: int) -> str:
-    dias: dict[str] = {1: "domingo", 2: "segunda", 3: "terça", 4: "quarta", 5: "quinta", 6: "sexta", 7: "sabado"}
+    dias: dict[int, str] = {1: "domingo", 2: "segunda", 3: "terça", 4: "quarta", 5: "quinta", 6: "sexta", 7: "sabado"}
 
     if dia in dias:
         return dias[dia]
     
-    return 0
+    return '0'
 
 
-print(numero_correspondente_dia())
+print(numero_correspondente_dia(3))
 
 # Operador ternário
 
