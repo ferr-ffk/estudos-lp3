@@ -43,11 +43,7 @@ def autenticarUsuario(email: str, senha: str) -> bool:
 def numero_correspondente_dia(dia: int) -> str:
     dias: dict[int, str] = {1: "domingo", 2: "segunda", 3: "terça", 4: "quarta", 5: "quinta", 6: "sexta", 7: "sabado"}
 
-    if dia in dias:
-        return dias[dia]
-    
-    return '0'
-
+    return dias[dia] if dia in dias else '0'
 
 print(numero_correspondente_dia(3))
 
