@@ -11,9 +11,14 @@ def tabuada_prova(n: int) -> list[int]:
     return l
 
 
+def tabuada_novo(n: int) -> list[int]:
+    return [x * n for x in range(1,11)]
+
+
 def main() -> None:
     print(tabuada(5))
     print(tabuada_prova(5))
+    print(tabuada_novo(5))
 
 if __name__ == "__main__":
     main()
