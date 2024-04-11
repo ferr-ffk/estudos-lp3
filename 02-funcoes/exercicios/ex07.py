@@ -13,7 +13,7 @@ def jogar_rodada(palavra: str, letras_advinhadas: list[str], num_vidas: int) -> 
     letras: list[str] = [char for char in palavra]
 
     # exibe a palavra e filtra com as letras ja advinhadas, exibindo um _ se a letra não advinhado    
-    letras_palavra: list[str] = ["_" if char not in letras_advinhadas else char for char in letras]
+    letras_palavra: list[str] = [("_" if char not in letras_advinhadas else char) for char in letras]
     
     palavra_advinhada: bool = "".join(letras_palavra) == palavra
     
