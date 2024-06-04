@@ -10,3 +10,4 @@ Repositório dedicado à disciplina de LP3 em 2024
 - **00-intro-git**: Aulas iniciais para estudo de controle de versão
 - **01-variaveis-constantes***: Aulas iniciais de conceitos básicos de python
 - **02-funcoes**: Aulas de funções básicas
+- **03-modulos-pacotes**: Aulas relacionadas a módulos em python
