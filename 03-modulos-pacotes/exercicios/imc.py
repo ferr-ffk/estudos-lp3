@@ -45,7 +45,8 @@ def classificar_imc(imc: float) -> str:
         if imc < valor:
             return _TABELA_IMC[valor]
         
-    return _TABELA_IMC[40.0]
+    # Referencia a ultima chave na lista e sempre retorna a maior opção
+    return _TABELA_IMC[list(_TABELA_IMC)[-1]]
 
 
 def obter_diferencia_peso_ate_imc_normal(peso: float, altura: float) -> float:
